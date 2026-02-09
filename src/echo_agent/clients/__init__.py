@@ -1,0 +1,1 @@
+"""Client stubs for echo-agent."""
