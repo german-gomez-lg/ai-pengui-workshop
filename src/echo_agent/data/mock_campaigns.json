@@ -1,0 +1,578 @@
+{
+  "campaigns": [
+    {
+      "campaign_id": "CMP-1001",
+      "name": "Ford Seasonal",
+      "client": "Ford",
+      "channel": "CTV",
+      "geo": "US",
+      "status": "active",
+      "base_metrics": {
+        "impressions": 226225,
+        "clicks": 1458,
+        "spend": 3093.26,
+        "conversions": 74
+      }
+    },
+    {
+      "campaign_id": "CMP-1002",
+      "name": "Disney Consideration",
+      "client": "Disney",
+      "channel": "Digital Out-of-Home",
+      "geo": "US",
+      "status": "active",
+      "base_metrics": {
+        "impressions": 233326,
+        "clicks": 508,
+        "spend": 3098.47,
+        "conversions": 40
+      }
+    },
+    {
+      "campaign_id": "CMP-1003",
+      "name": "Disney Consideration",
+      "client": "Disney",
+      "channel": "Digital Out-of-Home",
+      "geo": "US",
+      "status": "paused",
+      "base_metrics": {
+        "impressions": 431148,
+        "clicks": 2024,
+        "spend": 6110.6,
+        "conversions": 221
+      }
+    },
+    {
+      "campaign_id": "CMP-1004",
+      "name": "Nike Awareness",
+      "client": "Nike",
+      "channel": "FAST",
+      "geo": "US",
+      "status": "active",
+      "base_metrics": {
+        "impressions": 491369,
+        "clicks": 1441,
+        "spend": 11968.86,
+        "conversions": 96
+      }
+    },
+    {
+      "campaign_id": "CMP-1005",
+      "name": "Nike Awareness",
+      "client": "Nike",
+      "channel": "Digital Out-of-Home",
+      "geo": "US",
+      "status": "active",
+      "base_metrics": {
+        "impressions": 1088662,
+        "clicks": 4424,
+        "spend": 15206.23,
+        "conversions": 192
+      }
+    },
+    {
+      "campaign_id": "CMP-1006",
+      "name": "Coca-Cola Consideration",
+      "client": "Coca-Cola",
+      "channel": "CTV",
+      "geo": "US",
+      "status": "active",
+      "base_metrics": {
+        "impressions": 778856,
+        "clicks": 2927,
+        "spend": 15132.86,
+        "conversions": 324
+      }
+    },
+    {
+      "campaign_id": "CMP-1007",
+      "name": "Samsung Awareness",
+      "client": "Samsung",
+      "channel": "Digital Out-of-Home",
+      "geo": "US",
+      "status": "active",
+      "base_metrics": {
+        "impressions": 893384,
+        "clicks": 3008,
+        "spend": 12811.86,
+        "conversions": 139
+      }
+    },
+    {
+      "campaign_id": "CMP-1008",
+      "name": "Sony Promo",
+      "client": "Sony",
+      "channel": "CTV",
+      "geo": "US",
+      "status": "active",
+      "base_metrics": {
+        "impressions": 675435,
+        "clicks": 3927,
+        "spend": 10450.66,
+        "conversions": 273
+      }
+    },
+    {
+      "campaign_id": "CMP-1009",
+      "name": "Sony Promo",
+      "client": "Sony",
+      "channel": "Streaming",
+      "geo": "US",
+      "status": "active",
+      "base_metrics": {
+        "impressions": 838720,
+        "clicks": 4872,
+        "spend": 15107.11,
+        "conversions": 290
+      }
+    },
+    {
+      "campaign_id": "CMP-1010",
+      "name": "Toyota Launch",
+      "client": "Toyota",
+      "channel": "FAST",
+      "geo": "US",
+      "status": "paused",
+      "base_metrics": {
+        "impressions": 1083794,
+        "clicks": 7163,
+        "spend": 11747.32,
+        "conversions": 757
+      }
+    },
+    {
+      "campaign_id": "CMP-1011",
+      "name": "Toyota Launch",
+      "client": "Toyota",
+      "channel": "Digital Out-of-Home",
+      "geo": "US",
+      "status": "active",
+      "base_metrics": {
+        "impressions": 269403,
+        "clicks": 879,
+        "spend": 6504.37,
+        "conversions": 96
+      }
+    },
+    {
+      "campaign_id": "CMP-1012",
+      "name": "McDonald's Seasonal",
+      "client": "McDonald's",
+      "channel": "Digital Out-of-Home",
+      "geo": "US",
+      "status": "active",
+      "base_metrics": {
+        "impressions": 349811,
+        "clicks": 1255,
+        "spend": 4792.21,
+        "conversions": 106
+      }
+    },
+    {
+      "campaign_id": "CMP-1013",
+      "name": "McDonald's Launch",
+      "client": "McDonald's",
+      "channel": "CTV",
+      "geo": "US",
+      "status": "active",
+      "base_metrics": {
+        "impressions": 1141435,
+        "clicks": 6279,
+        "spend": 17612.28,
+        "conversions": 752
+      }
+    },
+    {
+      "campaign_id": "CMP-1014",
+      "name": "Amazon Awareness",
+      "client": "Amazon",
+      "channel": "Digital Out-of-Home",
+      "geo": "US",
+      "status": "active",
+      "base_metrics": {
+        "impressions": 1102931,
+        "clicks": 2931,
+        "spend": 21409.76,
+        "conversions": 302
+      }
+    },
+    {
+      "campaign_id": "CMP-1015",
+      "name": "Google Awareness",
+      "client": "Google",
+      "channel": "CTV",
+      "geo": "US",
+      "status": "paused",
+      "base_metrics": {
+        "impressions": 824834,
+        "clicks": 6579,
+        "spend": 14794.81,
+        "conversions": 774
+      }
+    },
+    {
+      "campaign_id": "CMP-1016",
+      "name": "Google Promo",
+      "client": "Google",
+      "channel": "Digital Out-of-Home",
+      "geo": "US",
+      "status": "active",
+      "base_metrics": {
+        "impressions": 914825,
+        "clicks": 6686,
+        "spend": 19452.08,
+        "conversions": 678
+      }
+    },
+    {
+      "campaign_id": "CMP-1017",
+      "name": "Microsoft Consideration",
+      "client": "Microsoft",
+      "channel": "CTV",
+      "geo": "US",
+      "status": "paused",
+      "base_metrics": {
+        "impressions": 675763,
+        "clicks": 1364,
+        "spend": 14077.08,
+        "conversions": 133
+      }
+    },
+    {
+      "campaign_id": "CMP-1018",
+      "name": "Apple Seasonal",
+      "client": "Apple",
+      "channel": "CTV",
+      "geo": "US",
+      "status": "paused",
+      "base_metrics": {
+        "impressions": 1082554,
+        "clicks": 6315,
+        "spend": 20714.19,
+        "conversions": 329
+      }
+    },
+    {
+      "campaign_id": "CMP-1019",
+      "name": "Apple Promo",
+      "client": "Apple",
+      "channel": "Streaming",
+      "geo": "US",
+      "status": "paused",
+      "base_metrics": {
+        "impressions": 828038,
+        "clicks": 3266,
+        "spend": 8522.29,
+        "conversions": 373
+      }
+    },
+    {
+      "campaign_id": "CMP-1020",
+      "name": "Adidas Awareness",
+      "client": "Adidas",
+      "channel": "Streaming",
+      "geo": "US",
+      "status": "active",
+      "base_metrics": {
+        "impressions": 452572,
+        "clicks": 3289,
+        "spend": 10954.16,
+        "conversions": 154
+      }
+    },
+    {
+      "campaign_id": "CMP-1021",
+      "name": "Pepsi Launch",
+      "client": "Pepsi",
+      "channel": "Streaming",
+      "geo": "US",
+      "status": "paused",
+      "base_metrics": {
+        "impressions": 891798,
+        "clicks": 4326,
+        "spend": 16272.69,
+        "conversions": 264
+      }
+    },
+    {
+      "campaign_id": "CMP-1022",
+      "name": "Walmart Seasonal",
+      "client": "Walmart",
+      "channel": "Digital Out-of-Home",
+      "geo": "US",
+      "status": "active",
+      "base_metrics": {
+        "impressions": 947581,
+        "clicks": 3667,
+        "spend": 23620.58,
+        "conversions": 337
+      }
+    },
+    {
+      "campaign_id": "CMP-1023",
+      "name": "Target Consideration",
+      "client": "Target",
+      "channel": "CTV",
+      "geo": "US",
+      "status": "active",
+      "base_metrics": {
+        "impressions": 459947,
+        "clicks": 1539,
+        "spend": 6931.99,
+        "conversions": 133
+      }
+    },
+    {
+      "campaign_id": "CMP-1024",
+      "name": "Best Buy Awareness",
+      "client": "Best Buy",
+      "channel": "Streaming",
+      "geo": "US",
+      "status": "paused",
+      "base_metrics": {
+        "impressions": 942225,
+        "clicks": 5452,
+        "spend": 12657.97,
+        "conversions": 612
+      }
+    },
+    {
+      "campaign_id": "CMP-1025",
+      "name": "Home Depot Seasonal",
+      "client": "Home Depot",
+      "channel": "Digital Out-of-Home",
+      "geo": "US",
+      "status": "paused",
+      "base_metrics": {
+        "impressions": 901474,
+        "clicks": 4428,
+        "spend": 16306.32,
+        "conversions": 433
+      }
+    },
+    {
+      "campaign_id": "CMP-1026",
+      "name": "Home Depot Launch",
+      "client": "Home Depot",
+      "channel": "FAST",
+      "geo": "US",
+      "status": "active",
+      "base_metrics": {
+        "impressions": 454801,
+        "clicks": 3050,
+        "spend": 10056.77,
+        "conversions": 168
+      }
+    },
+    {
+      "campaign_id": "CMP-1027",
+      "name": "IKEA Awareness",
+      "client": "IKEA",
+      "channel": "CTV",
+      "geo": "US",
+      "status": "paused",
+      "base_metrics": {
+        "impressions": 631071,
+        "clicks": 3030,
+        "spend": 13212.19,
+        "conversions": 284
+      }
+    },
+    {
+      "campaign_id": "CMP-1028",
+      "name": "IKEA Seasonal",
+      "client": "IKEA",
+      "channel": "Digital Out-of-Home",
+      "geo": "US",
+      "status": "active",
+      "base_metrics": {
+        "impressions": 622179,
+        "clicks": 3962,
+        "spend": 13693.47,
+        "conversions": 193
+      }
+    },
+    {
+      "campaign_id": "CMP-1029",
+      "name": "Starbucks Seasonal",
+      "client": "Starbucks",
+      "channel": "CTV",
+      "geo": "US",
+      "status": "active",
+      "base_metrics": {
+        "impressions": 642374,
+        "clicks": 1991,
+        "spend": 10881.44,
+        "conversions": 218
+      }
+    },
+    {
+      "campaign_id": "CMP-1030",
+      "name": "Uber Consideration",
+      "client": "Uber",
+      "channel": "Streaming",
+      "geo": "US",
+      "status": "paused",
+      "base_metrics": {
+        "impressions": 883823,
+        "clicks": 7066,
+        "spend": 19921.74,
+        "conversions": 830
+      }
+    },
+    {
+      "campaign_id": "CMP-1031",
+      "name": "Airbnb Awareness",
+      "client": "Airbnb",
+      "channel": "Digital Out-of-Home",
+      "geo": "US",
+      "status": "active",
+      "base_metrics": {
+        "impressions": 709231,
+        "clicks": 3466,
+        "spend": 16290.86,
+        "conversions": 388
+      }
+    },
+    {
+      "campaign_id": "CMP-1032",
+      "name": "Airbnb Seasonal",
+      "client": "Airbnb",
+      "channel": "Digital Out-of-Home",
+      "geo": "US",
+      "status": "active",
+      "base_metrics": {
+        "impressions": 478085,
+        "clicks": 3613,
+        "spend": 10411.23,
+        "conversions": 226
+      }
+    },
+    {
+      "campaign_id": "CMP-1033",
+      "name": "Lowe's Promo",
+      "client": "Lowe's",
+      "channel": "CTV",
+      "geo": "US",
+      "status": "active",
+      "base_metrics": {
+        "impressions": 399122,
+        "clicks": 1508,
+        "spend": 9790.72,
+        "conversions": 130
+      }
+    },
+    {
+      "campaign_id": "CMP-1034",
+      "name": "Honda Seasonal",
+      "client": "Honda",
+      "channel": "CTV",
+      "geo": "US",
+      "status": "active",
+      "base_metrics": {
+        "impressions": 812554,
+        "clicks": 3949,
+        "spend": 19331.32,
+        "conversions": 325
+      }
+    },
+    {
+      "campaign_id": "CMP-1035",
+      "name": "Lexus Seasonal",
+      "client": "Lexus",
+      "channel": "Streaming",
+      "geo": "US",
+      "status": "active",
+      "base_metrics": {
+        "impressions": 271849,
+        "clicks": 1514,
+        "spend": 5471.83,
+        "conversions": 89
+      }
+    },
+    {
+      "campaign_id": "CMP-1036",
+      "name": "BMW Promo",
+      "client": "BMW",
+      "channel": "Streaming",
+      "geo": "US",
+      "status": "active",
+      "base_metrics": {
+        "impressions": 849468,
+        "clicks": 2116,
+        "spend": 16870.94,
+        "conversions": 180
+      }
+    },
+    {
+      "campaign_id": "CMP-1037",
+      "name": "Mercedes Awareness",
+      "client": "Mercedes",
+      "channel": "CTV",
+      "geo": "US",
+      "status": "active",
+      "base_metrics": {
+        "impressions": 450280,
+        "clicks": 1618,
+        "spend": 5386.78,
+        "conversions": 148
+      }
+    },
+    {
+      "campaign_id": "CMP-1038",
+      "name": "Mercedes Seasonal",
+      "client": "Mercedes",
+      "channel": "FAST",
+      "geo": "US",
+      "status": "active",
+      "base_metrics": {
+        "impressions": 680547,
+        "clicks": 3897,
+        "spend": 12552.62,
+        "conversions": 187
+      }
+    },
+    {
+      "campaign_id": "CMP-1039",
+      "name": "Hyundai Launch",
+      "client": "Hyundai",
+      "channel": "FAST",
+      "geo": "US",
+      "status": "active",
+      "base_metrics": {
+        "impressions": 1178593,
+        "clicks": 4825,
+        "spend": 13002.08,
+        "conversions": 287
+      }
+    },
+    {
+      "campaign_id": "CMP-1040",
+      "name": "Kia Consideration",
+      "client": "Kia",
+      "channel": "FAST",
+      "geo": "US",
+      "status": "paused",
+      "base_metrics": {
+        "impressions": 900305,
+        "clicks": 6214,
+        "spend": 13046.03,
+        "conversions": 578
+      }
+    },
+    {
+      "campaign_id": "CMP-1041",
+      "name": "LG Promo",
+      "client": "LG",
+      "channel": "Streaming",
+      "geo": "US",
+      "status": "active",
+      "base_metrics": {
+        "impressions": 1132931,
+        "clicks": 2993,
+        "spend": 20730.77,
+        "conversions": 184
+      }
+    }
+  ]
+}
