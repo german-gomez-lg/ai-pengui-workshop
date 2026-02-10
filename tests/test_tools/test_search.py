@@ -1,0 +1,35 @@
+"""Unit tests for search tool."""
+
+from __future__ import annotations
+
+from typing import TYPE_CHECKING
+
+import pytest
+
+from echo_agent.models import Query, SearchResults
+from echo_agent.tools.search import search_documents
+
+if TYPE_CHECKING:
+    from conftest import DummyToolContext
+
+
+@pytest.mark.asyncio
+async def test_search_documents_returns_results(dummy_ctx: "DummyToolContext") -> None:
+    """Verify search_documents returns valid SearchResults."""
+    result = await search_documents(Query(question="What is PenguiFlow?"), dummy_ctx)
+
+    assert isinstance(result, SearchResults)
+    assert result.results, "Expected at least one search result"
+    assert result.results[0].title, "Result should have a title"
+    assert result.results[0].snippet, "Result should have a snippet"
+
+
+@pytest.mark.asyncio
+async def test_search_documents_with_different_query(dummy_ctx: "DummyToolContext") -> None:
+    """Verify search handles different query types."""
+    result = await search_documents(Query(question="How do I use tools?"), dummy_ctx)
+
+    assert isinstance(result, SearchResults)
+    assert result.results
+
+
