@@ -1,0 +1,8 @@
+command: [
+  "python",
+  "app.py"
+]
+
+env:
+  - name: 'PLATFORM_URL'
+    value: 'https://dev-ai-platform-backend-185296477739056.aws.databricksapps.com'

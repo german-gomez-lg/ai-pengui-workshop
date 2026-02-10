@@ -1,0 +1,14 @@
+[general]
+version = "1.0"
+type = "default"
+
+[files]
+include = [
+    "src",
+    "app.py",
+    "app.yaml",
+]
+exclude = [
+    "**/*.pyc",
+    "**/*.egg-info",
+]

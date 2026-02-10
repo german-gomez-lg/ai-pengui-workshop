@@ -10,13 +10,30 @@ llm:
     model: databricks/databricks-claude-3-7-sonnet
 
 tools:
-  - name: echo
-    description: "Echo the provided message verbatim."
-    side_effects: pure
+  - name: check_campaign_line_status
+    description: "Check a campaign line status in Databricks"
+    side_effects: read
     args:
-      message: str
+      line_id: int
+      warehouse_id: Optional[str]
     result:
+      found: bool
+      line_id: int
+      line_item_status: Optional[str]
+      campaign_id: Optional[int]
+      campaign_status: Optional[str]
+      line_item_name: Optional[str]
+      campaign_name: Optional[str]
       message: str
+  - name: search_segment
+    description: "Semantic search over audience segments"
+    side_effects: read
+    args:
+      query: str
+      top_k: Optional[int]
+    result:
+      query: str
+      results: list[dict[str, str]]
 
 planner:
   max_iters: 3
