@@ -82,7 +82,7 @@ class Config:
     planner_max_iters: int = 3
     planner_hop_budget: int = 3
     planner_absolute_max_parallel: int = 1
-    planner_stream_final_response: bool = False
+    planner_stream_final_response: bool = True
     planner_multi_action_sequential: bool = False
     planner_multi_action_read_only_only: bool = True
     planner_multi_action_max_tools: int = 2
@@ -148,10 +148,10 @@ class Config:
             wayfinder_base_url=os.getenv("WAYFINDER_BASE_URL"),
 
             # Planner Settings
-            planner_max_iters=_env_int("PLANNER_MAX_ITERS", 3),
-            planner_hop_budget=_env_int("PLANNER_HOP_BUDGET", 3),
-            planner_absolute_max_parallel=_env_int("PLANNER_ABSOLUTE_MAX_PARALLEL", 1),
-            planner_stream_final_response=_env_flag("PLANNER_STREAM_FINAL_RESPONSE", False),
+            planner_max_iters=_env_int("PLANNER_MAX_ITERS", 10),
+            planner_hop_budget=_env_int("PLANNER_HOP_BUDGET", 20),
+            planner_absolute_max_parallel=_env_int("PLANNER_ABSOLUTE_MAX_PARALLEL", 5),
+            planner_stream_final_response=_env_flag("PLANNER_STREAM_FINAL_RESPONSE", True),
             planner_multi_action_sequential=_env_flag(
                 "PLANNER_MULTI_ACTION_SEQUENTIAL",
                 False,
